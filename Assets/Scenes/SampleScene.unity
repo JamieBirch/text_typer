@@ -883,6 +883,68 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cursor: {fileID: 378242458}
   interval: 0.5
+--- !u!1 &777503426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 777503428}
+  - component: {fileID: 777503427}
+  m_Layer: 0
+  m_Name: ColorManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &777503427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777503426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23183a66fa609b542a399a5352616f1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texts:
+  - {fileID: 378242462}
+  - {fileID: 870765211}
+  background: {fileID: 91012652}
+  cursorGradient: {fileID: 27644925}
+  palettes:
+  - textColor: {r: 1, g: 0.92941177, b: 0.8235294, a: 1}
+    bgColor: {r: 0.08627451, g: 0.13333334, b: 0.078431375, a: 1}
+    gradientColor: {r: 0.92156863, g: 0.23921569, b: 0, a: 1}
+  - textColor: {r: 0.9490196, g: 0.8392157, b: 0.6313726, a: 1}
+    bgColor: {r: 0.5176471, g: 0.34117648, b: 0.18431373, a: 1}
+    gradientColor: {r: 0.94509804, g: 0.67058825, b: 0.019607844, a: 1}
+  - textColor: {r: 0.2901961, g: 0.28627452, b: 0.2784314, a: 1}
+    bgColor: {r: 0.9764706, g: 0.96862745, b: 0.9411765, a: 1}
+    gradientColor: {r: 0.69411767, g: 0.45490196, b: 0.34117648, a: 1}
+  - textColor: {r: 0.25882354, g: 0.27058825, b: 0.1882353, a: 1}
+    bgColor: {r: 1, g: 0.9372549, b: 0.8039216, a: 1}
+    gradientColor: {r: 0.8784314, g: 0.5686275, b: 0.19607843, a: 1}
+--- !u!4 &777503428
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777503426}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &870765209
 GameObject:
   m_ObjectHideFlags: 0
@@ -1258,3 +1320,4 @@ SceneRoots:
   - {fileID: 236911159}
   - {fileID: 503937781}
   - {fileID: 1522718154}
+  - {fileID: 777503428}
