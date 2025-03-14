@@ -16,6 +16,15 @@ public class Typer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (currentIndex < text.Length)
+            {
+                textObject.text = text;
+                currentIndex = text.Length;
+            }
+        }
+    
         if (timeout <= 0 && currentIndex < text.Length)
         {
             textObject.text += text[currentIndex]; // Add the next letter
